@@ -1,11 +1,14 @@
-import Footer from "./components/footer/Footer"
+import Footer from "./components/footer/Footer";
+import Balance from "./components/balance/Balance";
+import './app.scss'
 
 function App() {
   return (
-<>
-<Footer/>
-</>
-  )
+    <div className="main_container">
+      <Balance />
+      <Footer />
+    </div>
+  );
 }
 
-export default App
+export default App;
