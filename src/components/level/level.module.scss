@@ -1,0 +1,26 @@
+
+
+.level_container{
+    width: 46px;
+    background-color: white;  
+    text-align: center;  
+
+    .bar {
+        background-color: var(--color-soft-red);
+        margin: 6px;
+        border-radius: 5px;
+    }
+
+    .day {
+        font-size: 10px;
+        color: var(--color-medium-brown); 
+    }
+
+    .amount {
+        font-size: 12px;
+       background-color: black;
+       color: white;
+       padding: 5px 0px;
+       border-radius: 5px;
+    }
+}

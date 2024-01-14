@@ -1,0 +1,45 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    background-color: white;
+    height: 400px;
+    text-align: center;
+    border-radius: 15px;
+
+    h2{
+        font-size: 32px;
+    }
+
+    h3 {
+        margin: 20px 0px;
+    }
+
+    h4 {
+        text-align: right;
+    }
+
+    hr {
+        margin: 10px;
+    }
+
+    p {
+        color: var(--color-medium-brown);
+    }
+}
+
+.levels {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    margin: 20px 10px;
+}
+
+.totals {
+    display: flex;
+    justify-content: space-between;
+    align-items: last baseline;
+    margin: 20px 10px;
+
+}
