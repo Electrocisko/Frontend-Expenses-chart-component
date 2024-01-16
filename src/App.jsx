@@ -6,15 +6,15 @@ import dataLevels from '../../data.json'
 import { useState } from "react";
 
 function App() {
-
-
   const [data, setData] = useState(dataLevels);
+
+  
 
   return (
     <div className="main_container">
       <Balance />
       <div className="card_container">
-        <Card   data={data} />
+        <Card data={data} />
       </div>
 
       <Footer />
