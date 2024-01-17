@@ -9,6 +9,20 @@
         background-color: var(--color-soft-red);
         margin: 6px;
         border-radius: 5px;
+        height: 10px;
+        cursor: pointer;
+    }
+
+    .bar2{
+        height: 200px;
+    }
+
+    .barMax {
+        background-color: blue;
+        margin: 6px;
+        border-radius: 5px;
+        height: 100px;
+        cursor: pointer;
     }
 
     .day {
