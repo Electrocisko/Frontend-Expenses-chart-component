@@ -13,17 +13,21 @@
         cursor: pointer;
     }
 
-    .bar2{
-        height: 200px;
+    .bar:hover {
+        background-color: var(--color-very-pale-orange);
     }
 
+
     .barMax {
-        background-color: blue;
-        margin: 6px;
-        border-radius: 5px;
-        height: 100px;
-        cursor: pointer;
+        background-color: var( --color-cyan);
     }
+
+    .barMax:hover {
+        background-color: var(--color-cyan-soft);
+    }
+
+
+
 
     .day {
         font-size: 10px;
