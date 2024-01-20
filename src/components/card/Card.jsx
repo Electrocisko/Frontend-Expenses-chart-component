@@ -3,7 +3,7 @@ import styles from "./card.module.scss";
 import Level from "../level/Level";
 import { useState } from "react";
 
-function Card({data}) {
+function Card({data, levelHeight}) {
 
   const [max,setMax] = useState(0);
  
@@ -18,7 +18,7 @@ function Card({data}) {
       <h3>Spending - Last 7 days</h3>
       <div className={styles.levels}>
       {data.map( (item, index)=> (
-        <Level key={index} day={item.day} amount={item.amount} max={max}/>
+        <Level key={index} day={item.day} amount={item.amount} max={max} levelHeight={levelHeight}/>
       ) )}
     
       </div>

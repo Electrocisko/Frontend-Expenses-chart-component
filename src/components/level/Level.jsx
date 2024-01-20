@@ -2,7 +2,7 @@
 import { useState } from "react";
 import styles from "./level.module.scss";
 
-function Level({ day, amount, max }) {
+function Level({ day, amount, max, levelHeight }) {
   const [hover, setHover] = useState(false);
 
   const mouseEnter = () => {
@@ -19,14 +19,14 @@ function Level({ day, amount, max }) {
       {max == amount ? (
         <div
           className={`${styles.bar} ${styles.barMax}`}
-          style={{ height: amount*2.5 }}
+          style={{ height: amount*levelHeight }}
           onMouseEnter={mouseEnter}
           onMouseLeave={mouseLeave}
         ></div>
       ) : (
         <div
           className={styles.bar}
-          style={{ height: amount*2.5 }}
+          style={{ height: amount*levelHeight }}
           onMouseEnter={mouseEnter}
           onMouseLeave={mouseLeave}
         ></div>

@@ -1,9 +1,7 @@
-
-
-.level_container{
+.level_container {
     width: 46px;
-    background-color: white;  
-    text-align: center;  
+    background-color: white;
+    text-align: center;
 
     .bar {
         background-color: var(--color-soft-red);
@@ -19,28 +17,25 @@
 
 
     .barMax {
-        background-color: var( --color-cyan);
+        background-color: var(--color-cyan);
     }
 
     .barMax:hover {
         background-color: var(--color-cyan-soft);
     }
 
-
-
-
     .day {
         font-size: 10px;
-        color: var(--color-medium-brown); 
+        color: var(--color-medium-brown);
     }
 
     .amount {
         font-size: 12px;
-       background-color: black;
-       color: white;
-       padding: 5px 0px;
-       border-radius: 5px;
+        background-color: black;
+        color: white;
+        padding: 5px 0px;
+        border-radius: 5px;
     }
 
-    
+
 }
